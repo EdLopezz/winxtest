@@ -1,0 +1,36 @@
+#btn-back{
+    border-radius: 180px;
+    width: 50px;
+    margin: 7px;
+}
+
+.galeria{
+    width: 90%;
+    margin: auto;
+}
+
+.galeria-conteudo{
+    display: flex;
+    
+}
+
+.galeria-conteudo1{
+    display: flex;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+
+.galeria-item{
+    width: 31%;
+    height: 200px;
+    border: 1px solid #e03ff5ec;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+}
