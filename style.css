@@ -23,6 +23,7 @@ nav img{
     display:flex ;
     margin:  auto;
     padding: 10px 0;
+    
 
 }
 
@@ -81,4 +82,188 @@ footer{
 footer p{
     color: white;
     padding-top: 20px;
+}
+
+/*Bruno pagina*/
+
+body{
+    background-color: #000000;
+}
+
+/*Banners img , procura*/
+
+.banners-caixa{
+    width: 95%;
+    margin: 3em auto;
+}
+
+.banners-caixa h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFB400 ;
+    font-size: 1.25em;
+    margin: 1em  0;
+}
+
+
+.banner{
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.banner1{
+    display: block;
+    width: 100%;;
+}
+
+/*Buscas*/
+
+.inputs-busca {
+    margin: 0 auto;
+}
+
+.inputs-busca input{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    font-size: 0.6em;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+    border-top: none;
+    border-right:none;
+    padding: 5px;
+}
+
+#btn-buscar{
+    display:block ;
+    background-color: rgb(240, 35, 35);
+    width:130px;
+    color: white;
+    text-decoration: none;
+    border-radius:5px;
+    text-align: center;
+    margin-top:50px ;
+    margin-left: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 0;   
+    
+}
+
+/*Imagem*/
+
+.caixa-procurados{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.procurado-um img{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+.procurado-um a{
+    text-decoration: none;
+    color: white;
+    background-color: #f02323;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px 0;
+    border-radius: 5px;
+
+}
+
+.recompensa{
+    position: absolute;
+    right: 100px;
+    margin: auto;
+    top: 210vh;
+    display: flex;
+    font-weight: bold;
+    background-color: white;
+    height: 110px;
+}
+
+.recompensa p{
+    font-size: 1.7em;
+    line-height: 50px;
+}
+.valor{
+    display: flex;
+}
+
+.procurado-um p{
+    color: #f02323;
+    margin: auto;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    
+}
+
+.icons img{
+    width: 15px;
+    display: inline-block;
+
+}
+
+/*Informações*/
+
+.procurados-informacoes{
+    color: white;
+    margin-top: 15px;
+    font-size: 0.8m;
+}
+
+.procurados-informacoes p{
+    margin: 20px auto;
+    width: 80%;
+}
+
+/*Historico*/
+
+.mais-procurados-historicos {
+    text-align: justify;
+}
+
+.mais-procurados-historicos h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFB400 ;
+    font-size: 1.25em;
+    margin: 1em  0;
+}
+
+/*Mandatos*/
+
+.mais-procurados-mandatos h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFB400 ;
+    font-size: 1.25em;
+    margin: 1em  0;
+}
+
+.foto-mandatos{
+    display: flex;
+    text-align:left;
+    
+}
+
+.foto-mandatos-item{
+    
+}
+
+.foto-mandatos-item img{
+    width: 150px;
+    height: 200px;
+    border: solid;
 }
